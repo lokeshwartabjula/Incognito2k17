@@ -1,0 +1,228 @@
+.overall{
+	width: 80vw;
+	/*display: none;*/
+    /*border: 2px solid white;*/
+    height: 80vh;
+    position: relative;
+    top: 3vh;
+    left: 10vw;
+    /*border: 2px solid white;*/
+    /*border: 2px solid white;*/
+    /*overflow: hidden;*/
+    /*overflow-x: hidden;*/
+}
+
+.row{
+	color: white;
+	position: relative;
+	top: 8vh;
+}
+
+.childelement1:hover {
+/*border: 2px solid #88edfe;*/
+cursor: pointer;
+z-index: 0;
+transition: all 1s linear; 
+}
+
+.childelement2:hover {
+/*border: 2px solid #88edfe;*/
+cursor: pointer;
+z-index: 0;
+transition: all 1s linear;
+}
+
+
+.childelement:hover {
+/*border: 2px solid #88edfe;*/
+cursor: pointer;
+z-index: 0;
+transition: all 1s linear;
+}
+
+
+
+.element{
+	border: 2px solid white;
+    height: 12vw;
+    width: 12vw;
+    z-index: 2;
+    margin: auto;
+    transform: rotate(45deg);
+}
+
+.element:hover{
+	/*border: 4px solid white;*/
+	cursor: pointer;
+}
+
+
+
+.childelement1{
+	border: 2px solid white;
+    height: 8vw;
+    width: 8vw;
+    margin: auto;
+    top: -10vh;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+.dept{
+	font-size: 12px;
+    transform: translate(22vh);
+    position: relative;
+    top: -5vh;
+}
+
+.childelement2 p{
+	    font-size: 12px;
+}
+
+.childelement p{
+	    font-size: 12px;
+}
+
+
+
+.childelement2{
+	border: 2px solid white;
+    height: 8vw;
+    width: 8vw;
+    margin: auto;
+    top: -10vh;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+
+
+/*
+.baby{
+	width: 80vw;
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+    overflow-x: hidden;
+    border: 2px solid white;
+    z-index: -1;
+
+}*/
+
+
+/*@media (min-width:62em) {
+*/
+
+	/* background-image: 
+        linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
+        linear-gradient(90deg, rgba(255,255, 255,0), rgba(255, 255, 255, 1), rgba(255,255,255,0));
+    */
+    
+
+
+/*
+#footering {
+   height: 15px;
+     border:none;
+     background-color: transparent;
+     filter: blur(5px);
+    background-image: 
+        linear-gradient(90deg, rgb(0, 131, 177),rgb(175, 215, 222), rgb(0, 131, 177)),
+       linear-gradient(90deg, rgb(0, 131, 177), rgba(234, 239, 239, 0), rgb(0, 131, 177)); 
+     background-repeat: no-repeat;
+     background-position: 0 0, 0 1px;
+     background-size: 100% 15px;
+     margin-bottom: 3px;
+}*/
+
+#footering{
+	z-index: -1;
+	 height: 3px;
+     border:none;
+     background-color: transparent;
+     background-image: 
+        linear-gradient(90deg, rgba(0, 0, 0, 0), rgb(162, 180, 189), rgba(0, 0, 0, 0)),
+        linear-gradient(90deg, rgba(255,255, 255,0), #03A9F4, rgba(255,255,255,0));
+    
+    box-shadow: rgba(0,10,18,1) 0 0 20px;
+    
+     background-repeat: no-repeat;
+     background-position: 0 0, 0 1px;
+     background-size: 100% 3px;
+     margin-bottom: 3px;
+}
+
+
+/*#footering01{
+	position: relative;
+	top: -6px;
+	   height: 3px;
+     border:none;
+     filter: blur(10px);
+     background-color: transparent;
+     background-image: 
+        linear-gradient(90deg, rgba(0, 131, 177, 0.48),rgb(175, 215, 222), rgb(0, 131, 177)),
+        linear-gradient(90deg, rgba(0, 131, 177, 0.48), rgba(234, 239, 239, 0), rgba(0, 131, 177, 0.77));
+        box-shadow: 0px 0px 13px 3px rgba(0, 131, 177, 0.77);
+        background-repeat: no-repeat;
+     background-position: 0 0, 0 1px;
+     background-size: 100% 3px;
+     margin-bottom: 3px;
+}
+*/
+
+#footering01{
+	z-index: 1;
+	position: relative;
+	top: -7px;
+	height: 5px;
+     border:none;
+     filter: blur(3px);
+     background-color: transparent;
+    background-image: 
+       linear-gradient(90deg, rgba(0, 131, 177, 0.48),rgba(5, 184, 246, 0.99), rgb(0, 0, 0)),
+       linear-gradient(90deg, rgb(0, 0, 0),rgba(5, 184, 246, 0.99), rgba(0, 131, 177, 0.48));   
+     background-repeat: no-repeat;
+     background-position: 0 0, 0 1px;
+     background-size: 100% 5px;
+     margin-bottom: 3px;
+}
+
+#baby{
+	position: absolute;
+}
+#first{
+/*position: absolute;*/
+}
+
+
+.babyRun{
+	/*display: none;*/
+	opacity: 0;
+	z-index: -1;	
+	transition: all 0.5s ;
+}
+
+.firstRun{
+	/*display: none;*/
+	opacity: 1;
+	z-index: 1;
+	transition: all 0.5s  ;
+}
+
+
+.baby{
+	opacity: 1;
+	z-index: 1;
+	/*display: none;*/
+	/*transition: all 1s linear;*/
+}
+
+.first{
+	opacity: 0;
+	z-index: -1;
+}
+
+
+
+/*}*/

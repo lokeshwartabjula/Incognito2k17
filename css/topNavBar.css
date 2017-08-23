@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'pirulen';
+    src: url('../fonts/pirulen/pirulenrg.ttf');
+    src: url('../fonts/pirulen/pirulenrg.ttf') format('embedded-opentype'),
+         url('../fonts/pirulen/pirulenrg.ttf') format('woff'),
+         url('../fonts/pirulen/pirulenrg.ttf') format('truetype'),
+         url('../fonts/pirulen/pirulenrg.ttf') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#menu1{
+    	display: none;
+}
+#menu2{
+        display: none;
+}
+.img-topNavMobi{
+    display: block;
+}
+.img-topNavLapi{
+    display: none;
+}
+
+
+
+@media (orientation: landscape) {
+.img-topNavMobi{
+    display: none;
+}
+.img-topNavLapi{
+    display: block;
+}
+
+#menu1 {
+        padding-top: 3.4vw;
+    position: absolute;
+    left: 1.5vw;
+    width: 40%;float: left;
+    display: block;
+}
+
+#menu2 {
+    padding-top: 3.4vw;
+    position: absolute;
+    right: -2.5vw;float: right;
+    width: 42%;display: block;
+}
+
+ul#menu1 li:hover{
+    color: white;
+}
+ul#menu2 li:hover{
+  color: white;
+}
+ul#menu1 li {
+    display:inline;
+    margin-right: 2.2%;
+    font-size: 1.1vw;
+    cursor: pointer;
+    text-decoration: none;
+    color: #868E8F
+}
+
+ul#menu2 li {
+    display:inline;
+    margin-right: 2%;
+    font-size: 1.1vw;
+    cursor: pointer;
+    color: #868E8F;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+}
+
+
+
+@media (min-width: 62em) {
+
+body{
+    font-family: 'pirulen';
+}
+
+.img-topNavMobi{
+    display: none;
+}
+.img-topNavLapi{
+    display: block;
+}
+
+#menu1 {
+	    padding-top: 3.4vw;
+ padding-bottom: 3.4vw;
+    position: absolute;
+    left: 1.5vw;
+    width: 40%;float: left;
+    display: block;
+}
+
+#menu2 {
+	padding-top: 3.4vw;
+     padding-bottom: 3.4vw;
+    position: absolute;
+    right: -2.5vw;float: right;
+    width: 42%;display: block;
+}
+
+
+ul a{
+text-decoration: none;
+color:rgba(255,255,255,0.5);
+}
+
+
+
+ul li:hover{
+color: #fefefe;
+text-decoration: none;
+/*color:rgba(255,255,255,0.5);*/
+}
+
+ul a:hover{
+color: #fefefe;
+text-decoration: none;
+/*color:rgba(255,255,255,0.5);*/
+}
+ul#menu1 li:hover{
+	color: white;
+}
+ul#menu2 li:hover{
+  color: white;
+}
+ul#menu1 li {
+    display:inline;
+    margin-right: 2.2%;
+    font-size: 0.8vw;
+    cursor: pointer;
+    text-decoration: none;
+    color: #868E8F
+}
+
+ul#menu2 li {
+    display:inline;
+    margin-right: 2%;
+    font-size: 0.8vw;
+    cursor: pointer;
+    color: #868E8F;
+    text-decoration: none;
+
+}
+
+#nav-con {
+	width: 100%;
+	position: fixed;
+	display: block;
+	font-weight: bold;
+}
+
+#tf-logo{
+	top: calc(10px - 1vw);
+}
+
+#con1{
+	width:40%;
+}
+
+}

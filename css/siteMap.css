@@ -1,0 +1,812 @@
+.indexing01{z-index: -1;}
+.indexing02{z-index: +1}
+
+.allover{
+  -webkit-animation-name: makeIn;
+  -webkit-animation-duration: 0.4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease-out;
+
+  -moz-animation-name: makeIn;
+  -moz-animation-duration: 0.4s; /* Safari 4.0 - 8.0 */
+  -moz-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+  -moz-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  -moz-animation-fill-mode: forwards;
+  -moz-animation-timing-function: ease-out;
+
+  animation-name: makeIn;
+  animation-duration: 0.4s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  z-index: -1;
+}
+
+
+.alloverAgain{
+
+  -webkit-animation-name: makeOut;
+  -webkit-animation-duration: 0.4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease-out;
+
+  -moz-animation-name: makeOut;
+  -moz-animation-duration: 0.4s; /* Safari 4.0 - 8.0 */
+  -moz-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+  -moz-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  -moz-animation-fill-mode: forwards;
+  -moz-animation-timing-function: ease-out;
+
+  animation-name: makeOut;
+  animation-duration: 0.4s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  z-index: 1;
+}
+
+
+/* Standard syntax */
+@keyframes makeIn {
+    0%   {opacity: 1;}
+    100% {opacity: 0.2;}
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes makeIn {
+    0%   {opacity: 1;}
+    100% {opacity: 0.2;}
+}
+
+
+
+@-moz-keyframes makeIn {
+    0%   {opacity: 1;}
+    100% {opacity: 0.2;}
+}
+
+/* Standard syntax */
+@keyframes makeOut {
+    0%   {opacity: 0.3;}
+    100% {opacity: 1; }
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes makeOut {
+    0%   {opacity: 0.3;}
+    100% {opacity: 1;}
+}
+
+
+@-moz-keyframes makeOut {
+    0%   {opacity:0.3;}
+    100% {opacity: 1; }
+}
+
+
+
+#change{
+    position: relative;
+    left: -5vw;
+    top: -10vh;
+    opacity: 0;
+    cursor: pointer;
+    /*display: none;*/
+}
+
+
+.change01{
+    animation-name: change01;
+    animation-duration: 0.4s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+
+    -webkit-animation-name: change01;
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease-out;
+
+    -moz-animation-name: change01;
+    -moz-animation-duration: 0.4s;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-direction: alternate;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-timing-function: ease-out;
+
+}
+@-webkit-keyframes change01 {
+   0%   {top: 0vh;}
+    100% {top: -10vh;opacity: 0;}
+}
+
+
+@keyframes change01 {
+   0%   {top: 0vh;}
+    100% {top: -10vh;opacity: 0;}
+}
+
+@-moz-keyframes change01 {
+   0%   {top: 0vh;}
+    100% {top: -10vh;opacity: 0;}
+}
+
+
+
+.change02{
+    animation-name: change02;
+    animation-duration: 0.4s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+
+    -webkit-animation-name: change02;
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease-out;
+
+    -moz-animation-name: change02;
+    -moz-animation-duration: 0.4s;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-direction: alternate;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-timing-function: ease-out;
+
+}
+@keyframes change02 {
+   0%   {top: -10vh;opacity: 0;}
+    100% {top: 0vh;opacity: 1;}
+}
+
+@-webkit-keyframes change02 {
+   0%   {top: -10vh;opacity: 0;}
+    100% {top: 0vh;opacity: 1;}
+}
+
+@-moz-keyframes change02 {
+   0%   {top: -10vh;opacity: 0;}
+    100% {top: 0vh;opacity: 1;}
+}
+
+
+
+.bar1, .bar3 {
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+#change .bar1 {
+    -webkit-transform: rotate(-45deg)  ;
+    transform: rotate(-45deg)  ;
+    -moz-transform: rotate(-45deg)  ;
+}
+
+
+#change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+    -moz-transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+
+
+
+#siteMap{
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  display: block;
+  background-color: transparent;
+  width: 80%;
+  opacity: 1;
+  height: 80%;
+}
+
+
+.baby{
+  font-size: 10vh;
+    position: absolute;
+    top: -10vh;
+    text-decoration: none;
+}
+
+.comeOver{
+  -webkit-animation-duration: 0.4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: loveMore;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease-out;
+
+    animation-name: loveMore;
+    animation-duration: 0.4s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+
+    -moz-animation-duration: 0.4s; /* Safari 4.0 - 8.0 */
+    -moz-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+    -moz-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+    -moz-animation-name: loveMore;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-timing-function: ease-out;
+
+}
+
+
+.comeOver{
+  -webkit-animation-duration: 0.4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: loveLess;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease-out;
+
+    -moz-animation-duration: 0.4s; /* Safari 4.0 - 8.0 */
+    -moz-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+    -moz-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+    -moz-animation-name: loveLess;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-timing-function: ease-out;
+
+    animation-name: loveLess;
+    animation-duration: 0.4s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes loveMore {
+    0%   {top: 100%;opacity: 0;}
+    100% {top: 10%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes loveMore {
+     0%   {top: 100%;opacity: 0;}
+    100% {top: 10%;opacity: 1;}
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes loveLess {
+     0%   {top: 100%;opacity: 1;}
+    100% {height: 10%;opacity: 0;}
+}
+
+/* Standard syntax */
+@keyframes loveLess {
+   0%   {height: 100%;opacity: 1;}
+    100% {height: 10%;opacity: 0;}
+}
+
+
+
+
+.childOne{
+  animation-name: demoUp;
+    animation-duration: 0.4s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+@keyframes demoUp {
+     0%   {    top: 60vh;opacity: 0;}
+     40%   {opacity: 0.1;}
+    100% {    top: 25vh;opacity: 1;}
+
+}
+
+
+.childTwo{
+animation-name: demoDown;
+    animation-duration: 0.4s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+@keyframes demoDown {
+     0%   {    top: -30vh;opacity: 0;}
+     40%   {opacity: 0.1;}
+    100% {    top: 15vh;opacity: 1;}
+}
+
+
+#childOne{
+    position: relative;
+    top: 5vh;
+    opacity: 1;
+    width: 80vw;
+    height: 880vh;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+::-moz-scrollbar {
+    display: none;
+}
+
+#childOne ul{
+
+    height: 95vh;
+    overflow: scroll;
+
+    list-style-type: none;
+    font-size: 2.5vh;
+    text-align: center;
+    position: relative;
+    top: -10vh;
+    color: #89eeff;
+    padding-bottom: 5vh;
+}
+
+
+#childOne ul li{
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    cursor: pointer;
+}
+
+
+#childOne ul li:hover{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    cursor: pointer;
+    color: #fefefe;
+}
+
+#childTwo{
+    display: none;
+}
+
+.list{
+ position: relative;top: 10vh;opacity: 0;
+}
+/*
+#ab01 {position: relative;
+    top: 10vh;opacity: 0;}
+#ab02 {position: relative;
+    top: 10vh;opacity: 0;}
+#ab03 {position: relative;
+    top: 10vh;opacity: 0;}
+
+#ab04 {position: relative;
+    top: 10vh;opacity: 0;}
+#ab05 {position: relative;
+    top: 10vh;opacity: 0;}
+*/
+
+.list{
+    animation-duration: 0.4s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+}
+
+
+.singleAnimation01{
+    animation-name: singleAnimation01;
+}
+
+
+.singleAnimation02{
+    animation-name: singleAnimation02;
+    animation-delay: 0.1s;
+}
+
+.singleAnimation03{
+    animation-name: singleAnimation03;
+    animation-delay: 0.15s;
+}
+
+
+.singleAnimation04{
+    animation-name: singleAnimation04;
+    animation-delay: 0.2s;
+}
+.singleAnimation05{
+    animation-name: singleAnimation05;
+    animation-delay: 0.2s;
+}
+
+/*.singleAnimationMobi{
+    animation-name: singleAnimation;
+}*/
+
+.singleAnimation06{
+    animation-name: singleAnimation05;
+    animation-delay: 0.22s;
+}
+.singleAnimation07{
+    animation-name: singleAnimation05;
+    animation-delay: 0.23s;
+}
+
+.singleAnimation08{
+    animation-name: singleAnimation05;
+    animation-delay: 0.24s;
+}
+.singleAnimation09{
+    animation-name: singleAnimation05;
+    animation-delay: 0.26s;
+}
+.singleAnimation010{
+    animation-name: singleAnimation05;
+    animation-delay: 0.27s;
+}
+.singleAnimation011{
+    animation-name: singleAnimation05;
+    animation-delay: 0.28s;
+}
+.singleAnimation012{
+    animation-name: singleAnimation05;
+    animation-delay: 0.29s;
+}
+.singleAnimation013{
+    animation-name: singleAnimation05;
+    animation-delay: 0.30s;
+}
+.singleAnimation014{
+    animation-name: singleAnimation05;
+    animation-delay: 0.32s;
+}
+.singleAnimation015{
+    animation-name: singleAnimation05;
+    animation-delay: 0.34s;
+}
+
+.singleAnimation016{
+    animation-name: singleAnimation05;
+    animation-delay: 0.34s;
+}
+
+.singleAnimation017{
+    animation-name: singleAnimation05;
+    animation-delay: 0.34s;
+}
+
+.singleAnimation018{
+    animation-name: singleAnimation05;
+    animation-delay: 0.34s;
+}
+
+.singleAnimation019{
+    animation-name: singleAnimation05;
+    animation-delay: 0.34s;
+}
+
+.singleAnimation020{
+    animation-name: singleAnimation05;
+    animation-delay: 0.34s;
+}
+
+.singleAnimation021{
+    animation-name: singleAnimation05;
+    animation-delay: 0.34s;
+}
+
+.singleAnimation022{
+    animation-name: singleAnimation05;
+    animation-delay: 0.34s;
+}
+
+.singleAnimation023{
+    animation-name: singleAnimation05;
+    animation-delay: 0.34s;
+}
+
+
+
+
+
+
+@keyframes singleAnimation01 {
+     0%   {  opacity: 0;top: 10vh;}
+     50%{opacity: 0.2}
+    100% {top: 0vh;
+    opacity: 1;}
+}
+
+
+@keyframes singleAnimation02{
+     0%   {  opacity: 0;top: 10vh;}
+     50%{opacity: 0.2}
+    100% {top: 0vh;
+    opacity: 1;}
+}
+
+
+@keyframes singleAnimation03{
+     0%   {  opacity: 0;top: 10vh;}
+     50%{opacity: 0.2}
+    100% {top: 0vh;
+    opacity: 1;}
+}
+
+
+@keyframes singleAnimation04 {
+     0%   {  opacity: 0;top: 10vh;}
+     50%{opacity: 0.2}
+    100% {top: 0vh;
+    opacity: 1;}
+}
+
+@keyframes singleAnimation05 {
+     0%   {  opacity: 0;top: 10vh;}
+     50%{opacity: 0.2}
+    100% {top: 0vh;
+    opacity: 1;}
+}
+
+
+
+#right03 li{
+  padding-bottom: 1vh;
+}
+
+
+
+
+
+
+@media (min-width:62em) {
+
+#childOne ul{
+overflow: hidden;
+
+}
+
+
+
+
+
+.allover{
+-webkit-animation-duration: 0.4s; /* Safari 4.0 - 8.0 */
+-webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+-webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+-webkit-animation-name: makeIn;
+-webkit-animation-fill-mode: forwards;
+
+-moz-animation-duration: 0.4s; /* Safari 4.0 - 8.0 */
+-moz-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+-moz-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+-moz-animation-name: makeIn;
+-moz-animation-fill-mode: forwards;
+
+    animation-name: makeIn;
+    animation-duration: 0.4s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    z-index: -1;
+}
+
+
+.alloverAgain{
+  -webkit-animation-name: makeOut;
+  -webkit-animation-duration: 0.4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+
+  -webkit-animation-fill-mode: forwards;
+
+  -moz-animation-name: makeOut;
+  -moz-animation-duration: 0.4s; /* Safari 4.0 - 8.0 */
+  -moz-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+  -moz-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+
+  -moz-animation-fill-mode: forwards;
+
+  animation-name: makeOut;
+  animation-duration: 0.4s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  z-index: 1;
+}
+
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes makeIn {
+    0%   {opacity:1;filter: blur(0px);-webkit-filter: blur(0px);}
+    100% {opacity: 0.3;filter: blur(10px);-webkit-filter: blur(10px);}
+}
+
+/* Standard syntax */
+@keyframes makeIn {
+    0%   {opacity: 1;filter: blur(0px);}
+    100% {opacity: 0.3;filter: blur(10px);}
+}
+
+@-moz-keyframes makeIn {
+    0%   {opacity: 1;filter: blur(0px);-moz-filter: blur(0px);}
+    100% {opacity: 0.3;filter: blur(10px);-moz-filter: blur(10px);}
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes makeOut {
+    0%   {opacity:0.3;filter: blur(10px);-webkit-filter: blur(10px);}
+    100% {opacity: 1;filter: blur(0px);-webkit-filter: blur(0px);}
+}
+
+/* Standard syntax */
+@keyframes makeOut {
+   0%   {opacity:0.3;filter: blur(10px);}
+    100% {opacity: 1;filter: blur(0px); }
+}
+@-moz-keyframes makeOut {
+   0%   {opacity:0.3;filter: blur(10px);-webkit-filter: blur(10px);}
+    100% {opacity: 1;filter: blur(0px);-webkit-filter: blur(0px); }
+}
+
+
+
+
+
+
+#childOne{
+    position: relative;
+    top: 15vh;
+    opacity: 1;
+    width: 35vw;
+    height: 40vh;
+    float: left;
+}
+
+
+#childOne ul{
+    float: right;
+    list-style-type: none;
+    font-size: 3.5vh;
+    text-align: right;
+    position: relative;
+    top: -3.5vh;
+    color: #89eeff;
+}
+
+
+#childOne ul li{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    cursor: pointer;
+}
+
+
+#childOne ul li:hover{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    cursor: pointer;
+    color: #fefefe;
+}
+
+
+#childTwo{
+    position: relative;
+    top: -60vh;
+    opacity: 0;
+    width: 35vw;
+    height: 40vh;
+    float: right;
+    display: block;
+}
+
+
+#right02 ul li {
+    color: lightorange;
+    padding: 2vh;
+}
+
+
+#childTwo ul li :hover{
+    color: white;
+}
+
+
+
+
+.middleMen{
+    animation-name: middleMen;
+    animation-duration: 0.4s;
+    animation-delay: 0.3s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+@keyframes middleMen {
+     0%   {opacity: 0;}
+    /* 40%   {opacity: 0.1;}*/
+    100% {opacity: 1;}
+}
+
+#middleMen{
+    top: 35vh;
+    width: 50vh;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    transform: rotate(90deg);
+}
+
+
+#grad1 {
+    height: 2.5px;
+    width:50%;float:left;
+    background: #062b33; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #062b33 , yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,#16404a , #89f1ff); /* Standard syntax (must be last) */
+}
+
+#grad2 {
+    height: 2.5px;
+    width:50%;float:right;
+    background: #062b33; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #16404a , #89f1ff); /* Standard syntax (must be last) */
+}
+
+
+
+#grad3 {
+filter:blur(4px);
+    height: 6px;
+    position:absolute;
+    top:-1px;
+    width:50%;float:left;
+    background: #062b33; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #062b33 , yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,#16404a , #89f1ff); /* Standard syntax (must be last) */
+}
+
+#grad4 {
+filter:blur(4px);
+-webkit-filter:blur(4px);
+    height: 6px;
+        top:-1px;
+    position:absolute;
+    width:50%;float:right;
+    margin-left:50%;
+    background: #062b33; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #16404a , #89f1ff); /* Standard syntax (must be last) */
+}
+
+
+
+}

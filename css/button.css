@@ -1,0 +1,232 @@
+	.demo-3{
+		text-align: center;
+	}
+
+	.box {
+	width: 200px;
+	height: 50px;
+	position: relative;
+	background: #060606;
+	display: inline-block;
+	margin: 0 10px;
+	cursor: pointer;
+	color: #2c3e50;
+	box-shadow: inset 0 0 0 3px #2c3e50;
+	-webkit-transition: background 0.4s 0.5s;
+	-moz-transition: background 0.4s 0.5s;
+	transition: background 0.4s 0.5s;
+	}
+
+	.box:hover {
+	background: #060606;
+	-webkit-transition-delay: 0s;
+	-moz-transition-delay: 0s;
+	transition-delay: 0s;
+	box-shadow: 0 0 5px #083946;
+	}
+
+	.box span {
+	display: block;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 5px;
+	}
+
+	.box h3,
+	.box span {
+	-webkit-transition: color 0.4s 0.5s;
+	-moz-transition: color 0.4s 0.5s;
+	transition: color 0.4s 0.5s;
+}
+
+.box:hover h3,
+.box:hover span {
+	color: #fff;
+	-webkit-transition-delay: 0s;
+	-moz-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.box svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.box svg line {
+	stroke-width: 4;
+	stroke: #ecf0f1;
+	fill: none;
+	-webkit-transition: all .8s ease-in-out;
+	-moz-transition: all .8s ease-in-out;
+	transition: all .8s ease-in-out;
+
+}
+
+.box:hover svg line {
+	-webkit-transition-delay: 0.1s;
+	-moz-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+	box-shadow: 0 0 5px red;
+}
+
+.box svg line.top,
+.box svg line.bottom {
+	stroke-dasharray: 330 240; 
+}
+
+.box svg line.left,
+.box svg line.right {
+	stroke-dasharray: 490 400;
+}
+
+.box:hover svg line.top {
+	-webkit-transform: translateX(-600px);
+	-moz-transform: translateX(-600px);
+	transform: translateX(-600px);
+}
+
+.box:hover svg line.bottom {
+	-webkit-transform: translateX(600px);
+	-moz-transform: translateX(600px);
+	transform: translateX(600px);
+}
+
+.box:hover svg line.left {
+	-webkit-transform: translateY(920px);
+	-moz-transform: translateY(920px);
+	transform: translateY(920px);
+}
+
+.box:hover svg line.right {
+	-webkit-transform: translateY(-920px);
+	-moz-transform: translateY(-920px);
+	transform: translateY(-920px);
+}
+
+
+/* Frame */
+.demo-3 .box {
+	background: transparent;
+	color: #fff;
+	box-shadow: none;
+
+	 -ms-transform: scale(1.6); /* IE 9 */
+    -webkit-transform: scale(1.6); /* Safari */
+    transform: scale(1.6);
+
+
+	-webkit-transition: background 0.3s;
+	-moz-transition: background 0.3s;
+	transition: background 0.3s;
+}
+
+.demo-3 .box:hover {
+	background: transparent;
+	box-shadow: 0px 0px 5px lightblue;
+}
+
+.demo-3 .box h3,
+.demo-3 .box span {
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+
+.demo-3 .box svg line {
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+		stroke-width: 2;
+
+}
+
+.demo-3 .box:hover svg line {
+	/*stroke-width: 10;*/
+	-webkit-transition-delay: 0s;
+	-moz-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.demo-3 .box svg line.top {
+	stroke-width: 10;
+	-webkit-transform: translateX(-130px);
+	-moz-transform: translateX(-130px);
+	transform: translateX(-130px);
+}
+
+
+.demo-3 .box:hover svg line.top {
+	stroke-width: 10;
+	box-shadow: 0px 0px 5px lightblue;
+	-webkit-transform: translateX(130px);
+	-moz-transform: translateX(130px);
+	transform: translateX(130px);
+}
+
+
+.demo-3 .box svg line.bottom {
+	stroke-width: 10;
+	-webkit-transform: translateX(130px);
+	-moz-transform: translateX(130px);
+	transform: translateX(130px);
+}
+
+
+.demo-3 .box:hover svg line.bottom {
+	stroke-width: 10;
+	-webkit-transform: translateX(-130px);
+	-moz-transform: translateX(-130px);
+	transform: translateX(-130px);
+}
+
+.demo-3 .box svg line.left {
+	stroke-width: 10;
+	-webkit-transform: translateY(-27px);
+	-moz-transform: translateY(-27px);
+	transform: translateY(-27px);
+}
+
+
+.demo-3 .box:hover svg line.left {
+	stroke-width: 10;
+	-webkit-transform: translateY(27px);
+	-moz-transform: translateY(27px);
+	transform: translateY(27px);
+}
+
+
+.demo-3 .box svg line.right {
+	stroke-width: 10;
+	-webkit-transform: translateY(27px);
+	-moz-transform: translateY(27px);
+	transform: translateY(27px);
+}
+
+
+.demo-3 .box:hover svg line.right {
+	stroke-width: 10;
+	-webkit-transform: translateY(-27px);
+	-moz-transform: translateY(-27px);
+	transform: translateY(-27px);
+}
+
+@media (max-width:62em) and (orientation: landscape) {
+
+.demo-3 .box{
+	transform: scale(0.8);
+}
+
+}
+
+@media (min-width:62em) {
+
+.demo-3 .box {
+	 -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari */
+    transform: scale(1);
+
+}
+
+}

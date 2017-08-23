@@ -1,0 +1,523 @@
+.clock{
+    animation-name: clock;
+    animation-duration: 14s; 
+    animation-timing-function:linear;   
+    animation-iteration-count: infinite;
+
+    -moz-animation-name: clock;
+    -moz-animation-duration: 14s; 
+    -moz-animation-timing-function:linear;   
+    -moz-animation-iteration-count: infinite;
+
+    -webkit-animation-name: clock;
+    -webkit-animation-duration: 14s; 
+    -webkit-animation-timing-function:linear;   
+    -webkit-animation-iteration-count: infinite;
+
+
+    transform-origin: 50% 50%;
+}
+@keyframes clock {
+   0%{transform: rotate(0deg);filter: hue-rotate(0deg);}
+  26%{transform: rotate(120deg);filter: hue-rotate(0deg);}
+  33.2%{transform: rotate(240deg);filter: hue-rotate(-115deg);}
+  60%{transform: rotate(360deg);filter: hue-rotate(-115deg);}
+  66.6%{transform: rotate(480deg);filter: hue-rotate(-45deg);}
+  93.2%{transform:rotate(600deg);filter: hue-rotate(-45deg);}
+  100%{transform: rotate(720deg);filter: hue-rotate(0deg);}
+}
+
+@-moz-keyframes clock {
+   0%{transform: rotate(0deg);filter: hue-rotate(0deg);}
+  26%{transform: rotate(120deg);filter: hue-rotate(0deg);}
+  33.2%{transform: rotate(240deg);filter: hue-rotate(-115deg);}
+  60%{transform: rotate(360deg);filter: hue-rotate(-115deg);}
+  66.6%{transform: rotate(480deg);filter: hue-rotate(-45deg);}
+  93.2%{transform:rotate(600deg);filter: hue-rotate(-45deg);}
+  100%{transform: rotate(720deg);filter: hue-rotate(0deg);}
+}
+
+
+@-webkit-keyframes clock {
+   0%{transform: rotate(0deg);filter: hue-rotate(0deg);}
+  26%{transform: rotate(120deg);filter: hue-rotate(0deg);}
+  33.2%{transform: rotate(240deg);filter: hue-rotate(-115deg);}
+  60%{transform: rotate(360deg);filter: hue-rotate(-115deg);}
+  66.6%{transform: rotate(480deg);filter: hue-rotate(-45deg);}
+  93.2%{transform:rotate(600deg);filter: hue-rotate(-45deg);}
+  100%{transform: rotate(720deg);filter: hue-rotate(0deg);}
+}
+
+
+/**/
+.anticlock{
+    animation-name: anticlock;
+    animation-duration: 14s; 
+    animation-timing-function:linear;   
+    animation-iteration-count: infinite;
+
+    -webkit-animation-name: anticlock;
+    -webkit-animation-duration: 14s; 
+    -webkit-animation-timing-function:linear;   
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: anticlock;
+    -webkit-animation-duration: 14s; 
+    -webkit-animation-timing-function:linear;   
+    -webkit-animation-iteration-count: infinite;
+}
+
+
+@keyframes anticlock {
+   0%{transform: rotate(0deg);filter: hue-rotate(0deg);}
+  26%{transform: rotate(-120deg);filter: hue-rotate(0deg);}
+  33.2%{transform: rotate(-240deg);filter: hue-rotate(-115deg);}
+  60%{transform: rotate(-360deg);filter: hue-rotate(-115deg);}
+  66.6%{transform: rotate(-480deg);filter: hue-rotate(-45deg);}
+  93.2%{transform:rotate(-600deg);filter: hue-rotate(-45deg);}
+  100%{transform: rotate(-720deg);filter: hue-rotate(0deg);}
+}
+
+@-moz-keyframes anticlock {
+   0%{transform: rotate(0deg);filter: hue-rotate(0deg);}
+  26%{transform: rotate(-120deg);filter: hue-rotate(0deg);}
+  33.2%{transform: rotate(-240deg);filter: hue-rotate(-115deg);}
+  60%{transform: rotate(-360deg);filter: hue-rotate(-115deg);}
+  66.6%{transform: rotate(-480deg);filter: hue-rotate(-45deg);}
+  93.2%{transform:rotate(-600deg);filter: hue-rotate(-45deg);}
+  100%{transform: rotate(-720deg);filter: hue-rotate(0deg);}
+}
+
+
+@-webkit-keyframes anticlock {
+   0%{transform: rotate(0deg);filter: hue-rotate(0deg);}
+  26%{transform: rotate(-120deg);filter: hue-rotate(0deg);}
+  33.2%{transform: rotate(-240deg);filter: hue-rotate(-115deg);}
+  60%{transform: rotate(-360deg);filter: hue-rotate(-115deg);}
+  66.6%{transform: rotate(-480deg);filter: hue-rotate(-45deg);}
+  93.2%{transform:rotate(-600deg);filter: hue-rotate(-45deg);}
+  100%{transform: rotate(-720deg);filter: hue-rotate(0deg);}
+}
+
+
+.timtim_one{
+  opacity: 1;
+  animation: timtim_one 14s linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+  @keyframes timtim_one {
+  0%{opacity: 1;}
+  26%{opacity: 1;}
+  30%{opacity: 0;}
+  96.2%{opacity: 0;}
+  100%{opacity: 1}
+}
+
+@-webkit-keyframes timtim_one {
+  0%{opacity: 1;}
+  26%{opacity: 1;}
+  30%{opacity: 0;}
+  96.2%{opacity: 0;}
+  100%{opacity: 1}
+}
+
+@-moz-keyframes timtim_one {
+  0%{opacity: 1;}
+  26%{opacity: 1;}
+  30%{opacity: 0;}
+  96.2%{opacity: 0;}
+  100%{opacity: 1}
+}
+
+
+.timtim_two{
+  opacity: 0;
+  animation: timtim_two 14s linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+  @keyframes timtim_two {
+  0%{opacity: 0}
+  29.8%{opacity: 0;}
+  33.2%{opacity: 1;}
+  61%{opacity: 1;}
+  63%{opacity: 0;}
+  63.1%{opacity: 0}
+  100%{opacity: 0}
+}
+
+@-webkit-keyframes timtim_two {
+  0%{opacity: 0}
+  29.8%{opacity: 0;}
+  33.2%{opacity: 1;}
+  61%{opacity: 1;}
+  63%{opacity: 0;}
+  63.1%{opacity: 0}
+  100%{opacity: 0}
+}
+
+@-moz-keyframes timtim_two {
+  0%{opacity: 0}
+  29.8%{opacity: 0;}
+  33.2%{opacity: 1;}
+  61%{opacity: 1;}
+  63%{opacity: 0;}
+  63.1%{opacity: 0}
+  100%{opacity: 0}
+}
+
+
+.timtim_three{
+  opacity:0;
+  animation: timtim_three 14s linear;
+  -webkit-animation: timtim_three 14s linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+  @keyframes timtim_three {
+  0%{opacity: 0;}
+  62.8%{opacity: 0;}
+  66.6%{opacity: 1;}
+  93.2%{opacity: 1;}
+  96%{opacity: 0;}
+  100%{opacity: 0;}
+}
+
+@-webkit-keyframes timtim_three {
+  0%{opacity: 0;}
+  62.8%{opacity: 0;}
+  66.6%{opacity: 1;}
+  93.2%{opacity: 1;}
+  96%{opacity: 0;}
+  100%{opacity: 0;}
+}
+
+@-moz-keyframes timtim_three {
+  0%{opacity: 0;}
+  62.8%{opacity: 0;}
+  66.6%{opacity: 1;}
+  93.2%{opacity: 1;}
+  96%{opacity: 0;}
+  100%{opacity: 0;}
+}
+
+
+
+.autoRotate{
+animation: ringrotate 14s ease-in;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+
+-webkit-animation: ringrotate 14s ease-in;
+-webkit-animation-fill-mode: forwards;
+-webkit-animation-iteration-count: infinite;
+
+-moz-animation: ringrotate 14s ease-in;
+-moz-animation-fill-mode: forwards;
+-moz-animation-iteration-count: infinite;
+
+transform-origin: 50% 50%;
+}
+
+@keyframes ringrotate {
+  0%{transform: rotate(0deg);filter: hue-rotate(0deg);}
+  26%{transform: rotate(0deg);filter: hue-rotate(0deg);}
+  33.2%{transform: rotate(120deg);filter: hue-rotate(-115deg);}
+  60%{transform: rotate(120deg);filter: hue-rotate(-115deg);}
+  66.6%{transform: rotate(240deg);filter: hue-rotate(-45deg);}
+  93.2%{transform:rotate(240deg);filter: hue-rotate(-45deg);}
+  100%{transform: rotate(360deg);filter: hue-rotate(0deg);}
+}
+
+@-webkit-keyframes ringrotate {
+  0%{transform: rotate(0deg);filter: hue-rotate(0deg);}
+  26%{transform: rotate(0deg);filter: hue-rotate(0deg);}
+  33.2%{transform: rotate(120deg);filter: hue-rotate(-115deg);}
+  60%{transform: rotate(120deg);filter: hue-rotate(-115deg);}
+  66.6%{transform: rotate(240deg);filter: hue-rotate(-45deg);}
+  93.2%{transform:rotate(240deg);filter: hue-rotate(-45deg);}
+  100%{transform: rotate(360deg);filter: hue-rotate(0deg);}
+}
+@-moz-keyframes ringrotate {
+  0%{transform: rotate(0deg);filter: hue-rotate(0deg);}
+  26%{transform: rotate(0deg);filter: hue-rotate(0deg);}
+  33.2%{transform: rotate(120deg);filter: hue-rotate(-115deg);}
+  60%{transform: rotate(120deg);filter: hue-rotate(-115deg);}
+  66.6%{transform: rotate(240deg);filter: hue-rotate(-45deg);}
+  93.2%{transform:rotate(240deg);filter: hue-rotate(-45deg);}
+  100%{transform: rotate(360deg);filter: hue-rotate(0deg);}
+}
+
+
+
+@media (min-width:62em) {
+
+/*Inside the laptop scene*/
+
+
+.clock{
+  animation-name: clock;
+    animation-duration: 14s; 
+    animation-timing-function:linear;   
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes clock {
+  0%{transform: rotate(0deg);filter: hue-rotate(0deg);}
+  24%{transform: rotate(115deg);filter: hue-rotate(0deg);}
+  26%{transform: rotate(120deg);filter: hue-rotate(0deg);}
+  33.2%{transform: rotate(240deg);filter: hue-rotate(-115deg);}
+  58%{transform: rotate(355deg);filter: hue-rotate(-115deg);}
+  60%{transform: rotate(360deg);filter: hue-rotate(-115deg);}
+  61%{filter: hue-rotate(-115deg);}
+  66.6%{transform: rotate(480deg);filter: hue-rotate(-45deg);}
+  92.2%{transform:rotate(595deg);filter: hue-rotate(-45deg);}
+  93.2%{transform:rotate(600deg);filter: hue-rotate(-45deg);}
+  100%{transform: rotate(720deg);filter: hue-rotate(0deg);}
+}
+
+@-webkit-keyframes clock {
+   0%{transform: rotate(0deg);filter: hue-rotate(0deg);}
+  24%{transform: rotate(115deg);filter: hue-rotate(0deg);}
+  26%{transform: rotate(120deg);filter: hue-rotate(0deg);}
+  33.2%{transform: rotate(240deg);filter: hue-rotate(-115deg);}
+  58%{transform: rotate(355deg);filter: hue-rotate(-115deg);}
+  60%{transform: rotate(360deg);filter: hue-rotate(-115deg);}
+  61%{filter: hue-rotate(-115deg);}
+  66.6%{transform: rotate(480deg);filter: hue-rotate(-45deg);}
+  92.2%{transform:rotate(595deg);filter: hue-rotate(-45deg);}
+  93.2%{transform:rotate(600deg);filter: hue-rotate(-45deg);}
+  100%{transform: rotate(720deg);filter: hue-rotate(0deg);}
+}
+
+@-moz-keyframes clock {
+   0%{transform: rotate(0deg);filter: hue-rotate(0deg);}
+  24%{transform: rotate(115deg);filter: hue-rotate(0deg);}
+  26%{transform: rotate(120deg);filter: hue-rotate(0deg);}
+  33.2%{transform: rotate(240deg);filter: hue-rotate(-115deg);}
+  58%{transform: rotate(355deg);filter: hue-rotate(-115deg);}
+  60%{transform: rotate(360deg);filter: hue-rotate(-115deg);}
+  61%{filter: hue-rotate(-115deg);}
+  66.6%{transform: rotate(480deg);filter: hue-rotate(-45deg);}
+  92.2%{transform:rotate(595deg);filter: hue-rotate(-45deg);}
+  93.2%{transform:rotate(600deg);filter: hue-rotate(-45deg);}
+  100%{transform: rotate(720deg);filter: hue-rotate(0deg);}
+}
+
+
+/**/
+.anticlock{
+  animation-name: anticlock;
+    animation-duration: 14s; 
+    animation-timing-function:linear;   
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes anticlock {
+   0%{transform: rotate(0deg);filter: hue-rotate(0deg);}
+  24%{transform: rotate(-115deg);filter: hue-rotate(0deg);}
+  26%{transform: rotate(-120deg);filter: hue-rotate(0deg);}
+  33.2%{transform: rotate(-240deg);filter: hue-rotate(-115deg);}
+  58%{transform: rotate(-355deg);filter: hue-rotate(-115deg);}
+  60%{transform: rotate(-360deg);filter: hue-rotate(-115deg);}
+  61%{filter: hue-rotate(-115deg);}
+  66.6%{transform: rotate(-480deg);filter: hue-rotate(-45deg);}
+  92.2%{transform:rotate(-595deg);filter: hue-rotate(-45deg);}
+  93.2%{transform:rotate(-600deg);filter: hue-rotate(-45deg);}
+  100%{transform: rotate(-720deg);filter: hue-rotate(0deg);}
+}
+
+
+@-webkit-keyframes anticlock {
+   0%{transform: rotate(0deg);filter: hue-rotate(0deg);}
+  24%{transform: rotate(-115deg);filter: hue-rotate(0deg);}
+  26%{transform: rotate(-120deg);filter: hue-rotate(0deg);}
+  33.2%{transform: rotate(-240deg);filter: hue-rotate(-115deg);}
+  58%{transform: rotate(-355deg);filter: hue-rotate(-115deg);}
+  60%{transform: rotate(-360deg);filter: hue-rotate(-115deg);}
+  61%{filter: hue-rotate(-115deg);}
+  66.6%{transform: rotate(-480deg);filter: hue-rotate(-45deg);}
+  92.2%{transform:rotate(-595deg);filter: hue-rotate(-45deg);}
+  93.2%{transform:rotate(-600deg);filter: hue-rotate(-45deg);}
+  100%{transform: rotate(-720deg);filter: hue-rotate(0deg);}
+}
+
+@-moz-keyframes anticlock {
+   0%{transform: rotate(0deg);filter: hue-rotate(0deg);}
+  24%{transform: rotate(-115deg);filter: hue-rotate(0deg);}
+  26%{transform: rotate(-120deg);filter: hue-rotate(0deg);}
+  33.2%{transform: rotate(-240deg);filter: hue-rotate(-115deg);}
+  58%{transform: rotate(-355deg);filter: hue-rotate(-115deg);}
+  60%{transform: rotate(-360deg);filter: hue-rotate(-115deg);}
+  61%{filter: hue-rotate(-115deg);}
+  66.6%{transform: rotate(-480deg);filter: hue-rotate(-45deg);}
+  92.2%{transform:rotate(-595deg);filter: hue-rotate(-45deg);}
+  93.2%{transform:rotate(-600deg);filter: hue-rotate(-45deg);}
+  100%{transform: rotate(-720deg);filter: hue-rotate(0deg);}
+}
+
+
+
+.timtim_one{
+  opacity: 1;
+  animation: timtim_one 14s linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+  @keyframes timtim_one {
+  0%{opacity: 1;}
+  26%{opacity: 1;}
+  30%{opacity: 0;}
+  96.2%{opacity: 0;}
+  100%{opacity: 1}
+}
+
+@-webkit-keyframes timtim_one {
+  0%{opacity: 1;}
+  26%{opacity: 1;}
+  30%{opacity: 0;}
+  96.2%{opacity: 0;}
+  100%{opacity: 1}
+}
+@-moz-keyframes timtim_one {
+  0%{opacity: 1;}
+  26%{opacity: 1;}
+  30%{opacity: 0;}
+  96.2%{opacity: 0;}
+  100%{opacity: 1}
+}
+
+
+.timtim_two{
+  opacity: 0;
+  animation: timtim_two 14s linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+  @keyframes timtim_two {
+  0%{opacity: 0}
+  29.8%{opacity: 0;}
+  33.2%{opacity: 1;}
+  61%{opacity: 1;}
+  63%{opacity: 0;}
+  63.1%{opacity: 0}
+  100%{opacity: 0}
+}
+
+@-webkit-keyframes timtim_two {
+  0%{opacity: 0}
+  29.8%{opacity: 0;}
+  33.2%{opacity: 1;}
+  61%{opacity: 1;}
+  63%{opacity: 0;}
+  63.1%{opacity: 0}
+  100%{opacity: 0}
+}
+
+@-moz-keyframes timtim_two {
+  0%{opacity: 0}
+  29.8%{opacity: 0;}
+  33.2%{opacity: 1;}
+  61%{opacity: 1;}
+  63%{opacity: 0;}
+  63.1%{opacity: 0}
+  100%{opacity: 0}
+}
+
+
+.timtim_three{
+  opacity:0;
+  animation: timtim_three 14s linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+  @keyframes timtim_three {
+  0%{opacity: 0;}
+  62.8%{opacity: 0;}
+  66.6%{opacity: 1;}
+  93.2%{opacity: 1;}
+  96%{opacity: 0;}
+  100%{opacity: 0;}
+}
+
+@-webkit-keyframes timtim_three {
+  0%{opacity: 0;}
+  62.8%{opacity: 0;}
+  66.6%{opacity: 1;}
+  93.2%{opacity: 1;}
+  96%{opacity: 0;}
+  100%{opacity: 0;}
+}
+
+@-moz-keyframes timtim_three {
+  0%{opacity: 0;}
+  62.8%{opacity: 0;}
+  66.6%{opacity: 1;}
+  93.2%{opacity: 1;}
+  96%{opacity: 0;}
+  100%{opacity: 0;}
+}
+
+
+
+.autoRotate{
+animation: ringrotate 14s ease-in;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+}
+
+@keyframes ringrotate {
+  0%{transform: rotate(0deg);filter: hue-rotate(0deg);}
+  26%{transform: rotate(0deg);filter: hue-rotate(0deg);}
+  27%{transform: rotate(-5deg);filter: hue-rotate(0deg);}
+  32.2%{transform: rotate(125deg);filter: hue-rotate(-115deg);}
+  33.2%{transform: rotate(120deg);filter: hue-rotate(-115deg);}
+  60%{transform: rotate(120deg);filter: hue-rotate(-115deg);}
+  61%{transform: rotate(115deg);filter: hue-rotate(-115deg);}
+  65.6%{transform: rotate(245deg);filter: hue-rotate(-45deg);}
+  66.6%{transform: rotate(240deg);filter: hue-rotate(-45deg);}
+  93.2%{transform:rotate(240deg);filter: hue-rotate(-45deg);}
+  94%{transform: rotate(235deg);filter: hue-rotate(-45deg);}
+  99%{transform: rotate(365deg);filter: hue-rotate(0deg);}
+  100%{transform: rotate(360deg);filter: hue-rotate(0deg);}
+}
+
+@-webkit-keyframes ringrotate {
+  0%{transform: rotate(0deg);filter: hue-rotate(0deg);}
+  26%{transform: rotate(0deg);filter: hue-rotate(0deg);}
+  27%{transform: rotate(-5deg);filter: hue-rotate(0deg);}
+  32.2%{transform: rotate(125deg);filter: hue-rotate(-115deg);}
+  33.2%{transform: rotate(120deg);filter: hue-rotate(-115deg);}
+  60%{transform: rotate(120deg);filter: hue-rotate(-115deg);}
+  61%{transform: rotate(115deg);filter: hue-rotate(-115deg);}
+  65.6%{transform: rotate(245deg);filter: hue-rotate(-45deg);}
+  66.6%{transform: rotate(240deg);filter: hue-rotate(-45deg);}
+  93.2%{transform:rotate(240deg);filter: hue-rotate(-45deg);}
+  94%{transform: rotate(235deg);filter: hue-rotate(-45deg);}
+  99%{transform: rotate(365deg);filter: hue-rotate(0deg);}
+  100%{transform: rotate(360deg);filter: hue-rotate(0deg);}
+}
+@-moz-keyframes ringrotate {
+  0%{transform: rotate(0deg);filter: hue-rotate(0deg);}
+  26%{transform: rotate(0deg);filter: hue-rotate(0deg);}
+  27%{transform: rotate(-5deg);filter: hue-rotate(0deg);}
+  32.2%{transform: rotate(125deg);filter: hue-rotate(-115deg);}
+  33.2%{transform: rotate(120deg);filter: hue-rotate(-115deg);}
+  60%{transform: rotate(120deg);filter: hue-rotate(-115deg);}
+  61%{transform: rotate(115deg);filter: hue-rotate(-115deg);}
+  65.6%{transform: rotate(245deg);filter: hue-rotate(-45deg);}
+  66.6%{transform: rotate(240deg);filter: hue-rotate(-45deg);}
+  93.2%{transform:rotate(240deg);filter: hue-rotate(-45deg);}
+  94%{transform: rotate(235deg);filter: hue-rotate(-45deg);}
+  99%{transform: rotate(365deg);filter: hue-rotate(0deg);}
+  100%{transform: rotate(360deg);filter: hue-rotate(0deg);}
+}
+
+
+
+}
+
+

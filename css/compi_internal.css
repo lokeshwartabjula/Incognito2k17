@@ -1,0 +1,103 @@
+	.mainmenu{
+		list-style: none;
+		padding-right: 5%;
+		margin: 0;
+	}
+	.mainmenu li{
+		overflow: hidden;
+		position: relative;
+		/*border: 2px solid white;*/
+		padding-right: 10%;
+		width: 100%;
+		height: 40px;
+	}
+	.mainmenu  li .vertical{
+		position: absolute;
+		/*border: 2px solid red;*/
+		width: 100%;
+		height: 100%;
+		/*text-align: right;*/
+
+	}
+	.mainmenu li .vertical .yo{
+		position: absolute;
+		/*tra-origin: 50% 50%;*/
+		font-size: 3vh;
+		vertical-align: center;
+		color: #dafcff;
+		right: 6%;
+		/*border: 2px solid blue;*/
+		-webkit-transition: font-size 0.5s, color 0.5s;
+		-moz-transition: font-size 0.5s, color 0.5s;
+		transition: font-size 0.5s, color 0.5s;
+	}
+	.mainmenu li .vertical .bro{
+		position: absolute;
+		z-index: -1;
+		right: 0%;
+		width: 0%;
+		height: 80%;
+		background: red; /* For browsers that do not support gradients */    
+		background: -webkit-linear-gradient(left, transparent , #015874); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(right, transparent, #015874); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(right, transparent, #015874); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(to right, transparent , #015874); /* Standard syntax (must be last) */
+		-webkit-transition: width 0.5s;
+		transition: width 0.5s;
+	}
+
+	.bbbro{
+		/*width: 100%;*/
+		cursor: pointer;
+		background: -webkit-linear-gradient(left, transparent , #015874); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(right, transparent, #015874); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(right, transparent, #015874); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(to right, transparent , #015874); /* Standard syntax (must be last) */
+	}
+
+	.mainmenu li:hover .bro{
+		width: 100%;
+		cursor: pointer;
+	}
+
+	.mainmenu li:hover .yo{
+		font-size: 20px;
+		color: white;
+		cursor: pointer;
+	}
+	.crax{
+		position: absolute;
+		right: 0%;
+		width: 0%;
+		border: 1px solid #dafcff;
+		height: 100%;
+	}
+	.crax-top{
+		position: absolute;
+		right: 0%;
+		width: 2px;
+		height: 100%;
+		background: #dafcff; /* For browsers that do not support gradients */    
+		background: -webkit-linear-gradient(bottom, transparent , #dafcff); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(bottom, transparent, #dafcff); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(bottom, transparent, #dafcff); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(to bottom, transparent , #dafcff); /* Standard syntax (must be last) */		
+	}
+	.crax-bottom{
+		position: absolute;
+		right: 0%;
+		width: 2px;
+		height: 100%;
+		background: #dafcff; /* For browsers that do not support gradients */    
+		background: -webkit-linear-gradient(top, transparent , #dafcff); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(top, transparent, #dafcff); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(top, transparent, #dafcff); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(to top, transparent , #dafcff); /* Standard syntax (must be last) */		
+	}
+
+	.kaushik{
+	position:absolute; padding-right: 2vw;padding-top: 2vh;overflow:auto;display: none;
+	}
+	.kaushikShow{display: block;}
+	.kaushikHide{display: none;}
+
