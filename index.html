@@ -44,15 +44,15 @@
         #bodymovin{
             background-color:#000;
             /*margin-top:48%;*/
-            width:100vw; 
+            width:100vw;
             margin-top:23%;
             display:block;
             overflow: hidden;
             transform: translate3d(0,0,0);
                        /* margin-right: 20%;*/
-        } 
+        }
         .prlogo{
-            width:40%; 
+            width:40%;
         }
 
 .bottom{
@@ -85,7 +85,7 @@
         #childTwo ul li :hover {
             color: #88edfe;
         }
-      
+
         #particles-js{display: block;position: fixed;width: 100%;height: 100%;}
         .mobiList{display: none;}
         .lapiList{display: block;}
@@ -97,7 +97,7 @@
             overflow: hidden;
             transform: translate3d(0,0,0);
             margin-top:-3.5%;
-             
+
         }
 
         .botas_loop_3,.botas_loop_2{
@@ -108,7 +108,7 @@
                top: 1%;
         }
         .prlogo{
-            width:20%;    
+            width:20%;
         }
         .bottom{
             font-size:3vh;
@@ -150,7 +150,7 @@
 <div class="loader"  align="center" id="box" style="background:#000; width:100%; height: 100%; opacity:1; z-index:2;  overflow: none; position: absolute;">
 
 
-<div style="" class="prlogo"><img src="img/2018/logo.png" class="img-responsive"  alt="Techfest logo"></div>
+<div style="" class="prlogo"><img src="img/eventsMob/topbox.png" class="img-responsive"  alt="Incognito logo"></div>
 
 
 
@@ -179,7 +179,7 @@
     </svg>
     </button>
 </nav>
-<img src="img/header/navigation.png" id="tf-logo" 
+<img src="img/header/navigation.png" id="tf-logo"
  alt="navigation image" width="100%" style="position:absolute;" class="img-topNavLapi" style="z-index: -1" usemap="#image-map01">
 <map name="image-map01">
     <area title="HOME" href="http://techfest.org/" coords="251,5,249,100,1200,100,1200,4" shape="poly">
@@ -190,12 +190,12 @@
 </map>
 <div class="row">
 <ul id="menu1" style="z-index: 1;left: 7.5vw;">
-  
+
   <li style="margin-right: 0.6%;"><a href="index.html" style="color:#fff">HOME</a></li>
   <li style="margin-right: 0.6%;"><a href="about.html" id="init">ABOUT</a></li>
   <li style="margin-right: 0.6%;"><a href="geek-nation.html" id="idea">Geek Nation</a></li>
   <li style="margin-right: 0.6%;"><a href="tech-o-treat.html" id="comp">Tech-O-Treat</a></li>
-  
+
 </ul>
 <ul id="menu2" class = "" style="z-index: 1;">
   <li style="margin-right: 0.6%;"><a href="minute-to-win-it.html" id="summ">Minute to win it</a></li>
@@ -536,7 +536,7 @@
 
 </div>
 <div id="foot3" class="hidden-sm hidden-xs" class="safari1" style="width = 45%;">
-     
+
         <a style="padding-top: 0vh;padding-bottom: 0vh;float:right" class="link link--kukuri" href="hospitality.html" data-letters="HOSPITALITY">HOSPITALITY</a>
 </div>
 <div id="foot4" class="hidden-sm hidden-xs" class="safari1" style="width = 45%;">
@@ -608,7 +608,7 @@ text-decoration: none;">&times;</a>
             <li id="ab010" class="list mobiList">
                 <a href="contact-us.html" style="text-decoration: none;"> <p style="margin-bottom: 0px;">Contact</p>  </a>
             </li>
-          
+
         </ul>
 </div>
 
@@ -629,11 +629,11 @@ text-decoration: none;">&times;</a>
             <ul style="list-style-type: none;color: #ededed">
                 <li><a class="siteMap_compi" href="geeknation.html">GEEK NATION</a></li>
                 <li ><a class="siteMap_compi" href="tech-o-treat.html">TECH-O-TREAT</li>
-                        
+
                 <li ><a class="siteMap_compi" href="citc.html">CAUGHT IN THE CROSSFIRE</li>
-                
+
                 <li ><a class="siteMap_compi" href="tech-invent.html">TECH INVENT</a></li>
-               
+
                 <li><a class="siteMap_compi" href="minute-to-win-it.html" >MINUTE TO WIN IT</a></li>
 
                 <li><a class="siteMap_compi" href="bug-busters.html" >BUG BUSTERS</a></li>
@@ -657,11 +657,11 @@ text-decoration: none;">&times;</a>
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script type="text/javascript">
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
- 
+
 function myFunction() {
     document.getElementById("abhi").style.display="block";
     document.getElementById("abhi02").style.display="block";
-    
+
     document.getElementById("myDropdown").classList.toggle("show");
     document.getElementById("search").classList.toggle("search01");
     }
@@ -808,8 +808,8 @@ function preloader() {
 }
   var element=document.getElementById('box');
   var final=document.getElementById("overall");
-  var opacity1 = parseFloat(window.getComputedStyle(element).getPropertyValue("opacity")); 
-   var opacity2 = parseFloat(window.getComputedStyle(final).getPropertyValue("opacity"));      
+  var opacity1 = parseFloat(window.getComputedStyle(element).getPropertyValue("opacity"));
+   var opacity2 = parseFloat(window.getComputedStyle(final).getPropertyValue("opacity"));
     final.style.display="block";
 function updateOpacity1() {
   opacity1 = opacity1-0.2;
@@ -821,19 +821,19 @@ function updateOpacity1() {
    document.getElementById('box').style.display="none";
   } else {
     element.style.opacity = opacity1;
-    final.style.opacity=opacity2; 
+    final.style.opacity=opacity2;
     // this updates the opacity
-    setTimeout(function(){updateOpacity1()}, 50); // 50 is the delay, 50milliseconds   
+    setTimeout(function(){updateOpacity1()}, 50); // 50 is the delay, 50milliseconds
   }
 }
- // RELOADS WEBPAGE WHEN MOBILE ORIENTATION CHANGES  
-	    window.onorientationchange = function() { 
-	        var orientation = window.orientation; 
-	            switch(orientation) { 
+ // RELOADS WEBPAGE WHEN MOBILE ORIENTATION CHANGES
+	    window.onorientationchange = function() {
+	        var orientation = window.orientation;
+	            switch(orientation) {
 	                case 0:
 	                case 90:
-	                case -90: window.location.reload(); 
-	                break; } 
+	                case -90: window.location.reload();
+	                break; }
 	    };
 </script>
 </body>
