@@ -301,13 +301,9 @@ font-size: 12px;
 </nav>
 <img src="img/header/navigation.png" id="tf-logo"
  alt="navigation image" width="100%" style="position:absolute;" class="img-topNavLapi" style="z-index: -1" usemap="#image-map01">
-<map name="image-map01">
-    <area title="HOME" href="http://techfest.org/" coords="251,5,249,100,1200,100,1200,4" shape="poly">
-</map>
+
 <img alt="navigation image" src="img/eventsMob/topbox.png" id="tf-logo" width="100%" style="position:absolute;z-index: 1" class="img-topNavMobi" usemap="#image-map">
-<map name="image-map">
-    <area href="http://techfest.org/" coords="365,1,365,200,681,200,684,0" shape="poly">
-</map>
+
 <div class="row">
 <ul id="menu1" style="z-index: 1;left: 7.5vw;">
 
@@ -494,8 +490,7 @@ Yes, you can participate in more than one competition. It is recommended to focu
 							<p class="btnText" style="color:#dafdff" id="compiName02">
 								<a href="#" id="compiName02" style="color:#dafdff">Register !</a>
 							</p>
-							<a id="compi02" href="/register/full_throttle">
-							<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+							
 								<line class="top" x1="0" y1="0" x2="200" y2="0"/>
 								<line class="left" x1="0" y1="0" x2="0" y2="50"/>
 								<line class="bottom" x1="0" y1="50" x2="200" y2="50"/>
@@ -673,7 +668,7 @@ Yes, you can participate in more than one competition. It is recommended to focu
 									<p class="btnText" style="font-size: 1.5rem;
 					text-align: center;
 					margin-top: 1.5rem;">Register</p>
-					<a id="compi02" href="/register/full_throttle">
+					<a id="compi02" href="#">
 										<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
 											<line class="top" x1="0" y1="0" x2="200" y2="0"/>
 											<line class="left" x1="0" y1="0" x2="0" y2="50"/>
@@ -772,7 +767,7 @@ function closeNav(argument) {
 	}
 	if (argument== 6 ) {
 
-	window.location.href="resource/FullThrottle.pdf";
+	window.location.href="#";
     // document.getElementById("myNav").style.width = "0%";
     // con[0].style.display="none";
     // con[1].style.display="none";
@@ -918,7 +913,7 @@ text-decoration: none;">&times;</a>
 <div id="childOne" style="font-family:'pirulen';">
         <ul>
 					<li id="ab01" class="list lapiList">
-							<p style="margin-bottom: 0px;" onmouseover="right(1)" onclick="krish(1)"><a href="http://www.techfest.org/" style="color: #88edfe;text-decoration: none;">HOME</a></p>
+							<p style="margin-bottom: 0px;" onmouseover="right(1)" onclick="krish(1)"><a href="index.html" style="color: #88edfe;text-decoration: none;">HOME</a></p>
 					</li>
 					<li id="ab02" class="list lapiList" >
 							<p style="margin-bottom: 0px;" onmouseover="right(2)" onclick="krish(2)">ABOUT</p>
@@ -997,19 +992,7 @@ text-decoration: none;">&times;</a>
 
 
 
-<!-- <div id="childTwo">
-    <div id="right01" style="position: absolute;left: -2vw;">
-    <img src="img/theme/element.png" style="width: 40vh;">
-    </div>
 
-    <div id="right02" style="display: none;position: absolute;left: -2vw;width: 40vh;">
-    <div style="font-size: 2.6vh;
-    position: relative;
-    top: 4vh;">
-       <ul style="list-style-type: none;color: #ededed">
-        <li><a class="siteMap_compi" href="http://www.techfest.org/digitalisation">DIGITALIZE</a></li>
-        <li><a class="siteMap_compi" href="http://www.techfest.org/biotechnology">ELIXIR</a></li>
-        <li><a class="siteMap_compi" href="http://www.techfest.org/sustainability">INTERNATIONAL SUSTAINABILITY CHALLENGE</a></li>
         <!-- <li>TINKERER</li> -->
         </ul>
     </div>
@@ -1017,65 +1000,6 @@ text-decoration: none;">&times;</a>
 
 
 
-    <!-- <div id="right03" style="display: none;position: absolute;left: -2vw;">
-            <div style="font-size: 2.6vh;
-            position: relative;
-            top: -10vh;">
-            <ul style="list-style-type: none;color: #ededed">
-                <li><a class="siteMap_compi" href="http://www.techfest.org/oprahat">OPRAHAT</a></li>
-                <!-- <li><a href="http://www.techfest.org/aquaeructo" style="color: #fefefe;">AQUA ERUCTO</a></li> -->
-                <!-- <li style="padding-bottom: 0;">INTERNATIONAL</li>
-                        <ul style="font-family: 'Play',sans-serif;list-style-type: none;color: #df9111;">
-                            <li><a href="http://www.techfest.org/robowars" style="color: #df9111;font-family: 'Play';">ROBOWARS</a></li>
-                            <li><a href="http://www.techfest.org/irc" style="color: #df9111;font-family: 'Play';">IRC</a></li>
-                             <li><a href="http://www.techfest.org/icc" style="color: #df9111;font-family: 'Play';">ICC</a></li>
-                        </ul>
-                <li style="padding-bottom: 0;">TECHNORION</li>
-
-                <ul style="font-family: 'Play',sans-serif;list-style-type: none;color: #df9111">
-                            <li style="padding-bottom: 0;"><a href="http://www.techfest.org/clutch" style="color: #df9111;font-family: 'Play';">VISE CLUTCH</a></li>
-                            <li style="padding-bottom: 0;"><a href="http://www.techfest.org/meshmerize" style="color:#df9111;font-family: 'Play';">MESHMERIZE</a></li>
-                            <li><a href="http://www.techfest.org/enigma" style="color: #df9111;font-family: 'Play';">ENIGMA</a></li>
-                </ul> -->
-
-                <!-- <li style="padding-bottom: 0;">TATA PIONEER's MAKERTHON</li>
-                <ul style="font-family: 'Play',sans-serif;list-style-type: none;color: #df9111">
-                            <li><a href="http://www.techfest.org/automation" style="color: #df9111;font-family: 'Play';">AUTOMATION CHALLENGE</a></li>
-                            <li><a href="http://www.techfest.org/uav" style="color: #df9111;font-family: 'Play';">UAV CHALLENGE</a></li>
-                           <!--  <li >ENIGMA</li> -->
-                <!-- </ul>
-                <li><a class="siteMap_compi" href="http://www.techfest.org/fullthrottle" >FULL THROTTLE</a></li>
-
-                <li><a class="siteMap_compi" href="http://www.techfest.org/robovr" >ROBO VR</a></li>
-            </ul>
-            </div>
-    </div>
-
-    <div id="right04"  style="display: none;position: absolute;left: -2vw;">
-    <div style="font-size: 2.6vh;
-    position: relative;
-    top: 1vh;">
-    <ul style="list-style-type: none;color: #ededed">
-        <li style="padding-bottom: 2vh;"><a class="siteMap_compi" href="http://www.techfest.org/workshops">WORKSHOPS</li>
-        <li style="padding-bottom: 2vh;"><a class="siteMap_compi" href="http://www.techfest.org/summit">SUMMIT</li>
-        <li style="padding-bottom: 2vh;"><a class="siteMap_compi" href="http://www.techfest.org/mun">TWMUN</li>
-        <li style="padding-bottom: 2vh;"><a class="siteMap_compi" href="http://www.techfest.org/exhibitions">Exhibitions</li>
-        <li style="padding-bottom: 2vh;"><a class="siteMap_compi" href="http://www.techfest.org/lectures">LECTURES</li>
-        <li style="padding-bottom: 2vh;"><a class="siteMap_compi" href="http://www.techfest.org/technoholix">TECHNOHOLIX</li>
-        <li style="padding-bottom: 2vh;"><a class="siteMap_compi" href="http://www.techfest.org/ozone">OZONE</li>
-    </ul>
-    </div>
-    </div>
-
-
-</div> -->
-
-<!-- end of siteMap with div below -->
-
-
-
-
-<!-- <script type="text/javascript" src="js/parallex.js"></script> -->
 <!-- parallex animation -->
 
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
