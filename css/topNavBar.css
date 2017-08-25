@@ -73,6 +73,24 @@ ul#menu2 li {
 
 }
 
+ul#menu1 li a:active{
+  color:white;
+}
+
+ul#menu2 li a:active{
+  color:white;
+}
+
+ul#menu1 li a:visited{
+  color:white;
+}
+
+ul#menu21 li a:visited{
+  color:whi
+}
+
+
+
 
 
 
